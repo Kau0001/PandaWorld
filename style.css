@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* Cabeçalho */
+header.cabecalho {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header.cabecalho img {
+    width: 60px;
+    height: 60px;
+}
+
+header.cabecalho nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header.cabecalho nav a:hover {
+    color: #00b894;
+}
+
+/* Conteúdo principal */
+main.conteudo {
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.conteudo.principal {
+    margin-bottom: 50px;
+}
+
+.conteudo.escrito h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.conteudo.escrito h2 {
+    font-size: 24px;
+    color: #636e72;
+    margin-bottom: 30px;
+}
+
+/* Botão */
+button.data-bs-target {
+    background-color: #00b894;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.data-bs-target:hover {
+    background-color: #019874;
+}
+
+/* Seção secundária */
+.conteudo.sec {
+    max-width: 700px;
+    margin-top: 40px;
+}
+
+.conteudo.sec h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.conteudo.sec p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Rodapé */
+footer.rodape {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.rodape-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.rodape-logo img {
+    margin-right: 20px;
+}
+
+.rodape-textos p {
+    margin: 5px 0;
+    font-size: 16px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.rodape-textos p:first-of-type {
+    font-weight: bold;
+}
+
